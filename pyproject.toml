@@ -1,0 +1,15 @@
+[project]
+name = "ai-data-lake-query"
+version = "0.1.0"
+description = "AI Driven data lake query which invoke athena to run sql query and format the data into the chat interface"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "setuptools>=78.1.0",
+  "python-dotenv>=1.0.1",
+  "langgraph>=0.3.18",
+  "gradio>=5.22.0",
+  "langgraph>=0.3.18",
+  "langchain-community>=0.3.20",
+  "requests>=2.32.3"
+]
